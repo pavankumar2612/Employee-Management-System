@@ -1,0 +1,40 @@
+# === Terraform ===
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# === Node / MERN ===
+node_modules/
+npm-debug.log
+yarn-error.log
+# .env
+# .env.local
+# .env.*.local
+build/
+dist/
+coverage/
+.DS_Store
+
+# === Docker ===
+*.pid
+*.log
+docker-compose.override.yml
+
+# === Ansible ===
+*.retry
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# === OS / Editor junk ===
+Thumbs.db
+.vscode/
+.idea/

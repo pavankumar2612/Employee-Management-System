@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bytes": "^3.1.2",
+    "content-type": "^1.0.5",
+    "cors": "^2.8.5",
+    "debug": "^4.4.3",
+    "depd": "^2.0.0",
+    "destroy": "^1.2.0",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "iconv-lite": "^0.7.0",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "on-finished": "^2.4.1",
+    "qs": "^6.14.0",
+    "raw-body": "^3.0.1",
+    "type-is": "^2.0.1",
+    "unpipe": "^1.0.0"
+  },
+  "description": ""
+}

@@ -149,7 +149,7 @@ export default function RecordList() {
   useEffect(() => {
     async function getRecords() {
       try {
-        const response = await fetch("http://localhost:5050/record/");
+        const response = await fetch("/record/");
         if (!response.ok) {
           throw new Error(`Error fetching records: ${response.statusText}`);
         }
@@ -168,7 +168,7 @@ export default function RecordList() {
   // ✅ Delete record
   async function deleteRecord(id) {
     try {
-      const response = await fetch(`http://localhost:5050/record/${id}`, {
+      const response = await fetch(`/record/${id}`, {
         method: "DELETE",
       });
       if (!response.ok) {
